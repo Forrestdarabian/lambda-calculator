@@ -21,13 +21,19 @@ function App() {
   // Don't forget to pass the functions (and any additional data needed) to the components as props
 
   return (
-    <div className="container">
-      <Logo />
+    <div class='container'>
+      <Logo/>
       <div className="App">
         <Display/>
+        <div className="allbuttons">
+          <div className="buttongroup1">
+        <Specials className="specialbuttons"/>
         <Numbers/>
+        </div>
+        <div className="buttongroup2">
         <Operators/>
-        <Specials/>
+        </div>
+        </div>
         {/* STEP 4 - Render your components here and be sure to properly import/export all files */}
       </div>
     </div>

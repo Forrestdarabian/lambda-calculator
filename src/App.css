@@ -1,0 +1,67 @@
+.container{
+   display: flex;
+   background-color: #A81D36;
+   padding: 0.5em;
+   border-radius: 20px;
+   border: 5px solid white;
+   margin: auto;
+   max-width: 500px;
+    align-content: center;
+    justify-content: center;
+   flex-wrap: wrap;
+
+}
+
+.outputbox{
+background-color:#323335;
+border-radius: 20px;
+font-size: 3.5em;
+color: white;
+padding: 1px;
+text-align: right;
+width: 100%;
+margin: 0.6em auto;
+}
+
+.logo-container{
+width: 100%;
+}
+
+.specialbuttons{
+    color:white;
+    background-color: #184379;
+    border: none;
+    width: 1.6em;
+    font-size: 3em;
+    margin: 0.3em;
+}
+
+.numbuttons{
+    color:white;
+    background-color: #225D9E;
+    border: none;
+    width: 1.6em;
+    font-size: 3em;
+    margin: 0.3em;
+}
+
+.operatorbuttons{
+    color:white;
+    background-color: #237293;
+    border: none;
+    width: 1.6em;
+    font-size: 3em;
+    margin: 0.3em;
+}
+
+.allbuttons{
+display: flex;
+}
+
+.buttongroup1{
+width: 75%;
+}
+
+.buttongroup2{
+width: 25%;
+}
